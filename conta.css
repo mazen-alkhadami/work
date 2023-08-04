@@ -36,7 +36,7 @@ body{
     background-color:white;
     box-shadow:0 0 12px black;
     position:fixed;
-    z-index:1;
+    z-index:2;
     }
     header button{
     width: 50px;
