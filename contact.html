@@ -38,7 +38,7 @@
     <div class="title">
       <h1>للإستفسار تواصل معنا</h1>
     </div>
-    <form onsubmit="sendEmail(); reset(); return false;" >
+    <form action="https://formsubmit.co/mazenalkhadami123@gmail.com" method="POST" >
 
       <input type="text" id="name" placeholder="Your name" required>
       <input type="email" id="email" placeholder="Your email " required>
@@ -55,31 +55,15 @@
     <li><a onclick="location.href='index.html'">main</a></li>
     <li><a onclick="location.href='who.html'">about us</a></li>
     <li><a onclick="location.href='services.html'" >our services </a></li>
+    <li><a onclick="location.href='investment.html'" >real investment</a></li>
     <li><a onclick="location.href='some.html'">our show</a></li>
     <li><a href="#" >contact us</a></li>
     </ul>
     <center><h6>&copy;جميع الحقوق محفوظة 2023</h6>
       <img class="imm" src="telegram.png"><img class="imm" src="facebook.png"><img class="imm" src="twit.png"><img class="imm" src="inst.png"><img class="imm" src="what.png">
     </center>
-  </div>
-   <script src="https://smtpjs.com/v3/smtp.js"> </script>
-   <script>
-    function sendEmail(){
-
-      Email.send({
-    SecureToken : "e5d19131-fa7e-4d29-a534-5af9a6bf1855",
-    To : "mazenalkhadami123@gmail.com",
-    From : "mazenalkhadami111@gmail.com",
-    Subject : "the content",
-    Body : "name: " + document.getElementById("name") .value
-          + "<br> Email: " + document.getElementById ("email") .value
-          + "<br> phone number: " + document.getElementById ("phone") .value
-          + "<br> massage: " + document.getElementById ("massage") .value
-
-}).then(
-  message => alert("message sent succesfully")
-);
-    }
-   </script>
+</div>
+  
+  
 </body>
 </html>
