@@ -12,7 +12,7 @@
   }
 }
 body {
-  background: linear-gradient(to right, #3c0494, #11dec3);
+  background-color: aliceblue;
 }
 * {
   margin: 0px;
@@ -74,9 +74,12 @@ fieldset {
   text-align: center;
   margin: 5px;
   margin-top: 40px;
+
+ 
 }
 legend {
   font-size: 25px;
+  
 }
 
 fieldset button {
