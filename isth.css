@@ -74,6 +74,7 @@ fieldset {
   text-align: center;
   margin: 5px;
   margin-top: 40px;
+  
 
  
 }
@@ -81,47 +82,83 @@ legend {
   font-size: 25px;
   
 }
+fieldset h3{
+  text-align: right;
+  margin: 10px;
+  
 
-fieldset button {
-  width: 50%;
-  height: 70px;
-  margin: 20px;
+}
+fieldset h2{
+  text-align: left;
+  padding-left: 25px;
+
+}
+
+fieldset button{
+margin: 1px;
+padding: 1px;
+border-radius: 5px;
+  display:inline-block ;
+
 }
 .cont {
   padding: 10px;
   font-size: 20px;
 }
 
-.more {
-  background-color: lightgray;
+.more1 {
+  background-color: rgb(13, 0, 255);
   font-size: 20px;
-  border: 2px solid black;
-  color: darkBlue;
+  border: 2px solid rgb(13, 0, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 95%;
+  height: 70px;
+  margin-bottom: 3px;
+}
+
+.inl{
+display: inline-block;
+padding: 0px;
+
 }
 .watt {
-  background-color: darkGreen;
+  background-color: rgb(255, 255, 255);
   font-size: 20px;
-  border: 2px solid black;
-  color: white;
+  border: 2px solid rgb(13, 0, 255);
+  color: rgb(13, 0, 255);
+  width:279px;
+  height: 70px;
+ 
+
 }
 .tle {
-  background-color: lightBlue;
+  background-color: rgb(255, 255, 255);
   font-size: 20px;
   border: 2px solid black;
   color: black;
+  width: 279px;
+  height: 70px;
 }
 
 .face {
-  background-color: darkBlue;
+  background-color: rgb(255, 255, 255);
   font-size: 20px;
-  border: 2px solid black;
-  color: white;
+  border: 2px solid rgb(13, 0, 255);
+  color: rgb(13, 0, 255);
+  width: 257px;
+  height: 70px;
+ 
 }
 .email {
-  background-color: yellow;
+  background-color: rgb(255, 255, 255);
   font-size: 20px;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   color: Black;
+  width: 257px;
+  height: 70px;
+ 
+ 
 }
 
 .qq {
