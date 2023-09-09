@@ -11,6 +11,18 @@
     display: inline;
   }
 }
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  #id {
+    width: 50px;
+    display: inline;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  #id {
+    width: 40px;
+    display: inline;
+  }
+}
 
 body {
   background: linear-gradient(to right, #3c0494, #11dec3);
@@ -32,7 +44,7 @@ header {
   z-index: 1;
 }
 header button {
-  width: 50px;
+  width: 40px;
   padding: 10px;
   margin-top: 10px;
   border: none;
@@ -42,6 +54,7 @@ header button {
   box-shadow: 0 0 8px whitesmok;
   font-family: "Noto Kufi Arabic", sans-serif;
   transition: 1s;
+  display: inline-block;
 }
 
 header button:hover {
